@@ -32,41 +32,42 @@ would provide a basis for choosing the expected result.
 
 Solution. <br>
 Inputs;
-### A = A3A2A1A0 <br>
-### B = B3B2B1B0<br>
-### S = S2S1S0<br>
+### A = A3 A2 A1 A0 <br>
+### B = B3 B2 B1 B0<br>
+### S = S2 S1 S0<br>
 Outputs;<br>
 
 ### FAU – Arithmetic unit output<br>
 ### FLU – Logic unit output<br>
 ### F -- Final output<br>
 
-I- CONCEPTION OF THE ARITHMETIC UNIT
-The AU is able to perform the 4 Mathematical operations which are:
-1- Addition ie A+B
-2- Subtraction ie A-B
-3- Increment ie A+1
-4- Decrement ie A-1
+# I- CONCEPTION OF THE ARITHMETIC UNIT
+The AU is able to perform the 4 Mathematical operations which are:<br>
+1- Addition ie A+B<br>
+2- Subtraction ie A-B<br>
+3- Increment ie A+1<br>
+4- Decrement ie A-1<br>
+
 But the computer uses only addition to perform any operation so how then
-can we transform the additive function?
-In 2’s complement notation, we have
-Addition A+B+0
-Subtraction A+ 1’s (B) +1
-Increment A+0+1
-Decrement A+ 1+0
+can we transform the additive function?<br>
+In 2’s complement notation, we have: <br>
+Addition A+B+0<br>
+Subtraction A+ 1’s (B) +1<br>
+Increment A+0+1<br>
+Decrement A+ 1+0<br>
+
+
 Basically, the following table shows us how an Additive function of three bits operates
-A B S2 S1 S0 F(A,B)
-X X 0 0 0 A + B
-X X 0 0 1 A – B
-X X 0 1 0 A + 1
-X X 0 1 1 A – 1
-X X 1 0 0 A ^ B
-X X 1 0 1 A v B
-X X 1 1 0 -A
-X X 1 1 1 A B
-X X X X X A>B
-A<B
-A=B
+A B S2 S1 S0 F(A,B)<br>
+X X 0  0  0   A + B<br>
+X X 0  0  1   A – B<br>
+X X 0  1  0   A + 1<br>
+X X 0  1  1   A – 1<br>
+X X 1  0  0   A ^ B<br>
+X X 1  0  1   A v B<br>
+X X 1  1  0  -A<br>
+X X 1  1  1   A B<br>
+X X X X X     A>B A<B A=B<br>
 ARITHMETIC UNIT && LOGIC UNITAddition
 A B Cin S Cout
 0 0 0 0 0
