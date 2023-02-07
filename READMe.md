@@ -10,19 +10,24 @@ more tactical approach to do so. By using the principle of Divide and Conquer, s
 ALU into smaller components and assembling them at the end, achieving a 4 bit ALU will be made
 easier and simpler to implement. So the principle would be to create a 1 BIT ALU, and then cascade
 4 of them to get the 4 BIT ALU.
+<br>
 Note that the ALU is able to perform 8 main operations, so the need of 3 SELECTION BITS that
 would provide a basis for choosing the expected result.
- For the Arithmetic unit (AU):
- Addition
- Subtraction
- Increment input A
- Decrement input A
- For the logic unit (LU)
- ANDing
- ORing
- Complement input A
- XORing
- Comparator
+<br>
+<br>
+## For the Arithmetic unit (AU): <br>
+ Addition<br>
+ Subtraction<br>
+ Increment input A<br>
+ Decrement input A<br>
+<br>
+<br>
+## For the logic unit (LU)<br>
+ ANDing<br>
+ ORing<br>
+ Complement input A<br>
+ XORing<br>
+ Comparator<br>
 Solution.
 Inputs;
 A = A3A2A1A0
