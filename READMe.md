@@ -1,4 +1,13 @@
-# Project 
+# BANK VAULT SYSTEM
+As a computer engineer, you are asked to design a system that will control the opening of a bank
+vault. The specifications are the following; <br>
+ During working hours, the president can open it or in his absence, the two vice presidents
+will be needed to open it. <br>
+ When it is not a working hour, it needs the president and at least one vice president before
+it can open. The two vice presidents cannot op
+<br>
+
+# 4-BIT ALU
 As a computer engineer, you are ask to design a 4-bit ALU that can perform the following
 operations:
 <br>
