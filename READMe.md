@@ -1,4 +1,4 @@
-## Project 
+# Project 
 As a computer engineer, you are ask to design a 4-bit ALU that can perform the following
 operations:
 <br>
