@@ -11,34 +11,36 @@ ALU into smaller components and assembling them at the end, achieving a 4 bit AL
 easier and simpler to implement. So the principle would be to create a 1 BIT ALU, and then cascade
 4 of them to get the 4 BIT ALU.
 <br>
+
 Note that the ALU is able to perform 8 main operations, so the need of 3 SELECTION BITS that
 would provide a basis for choosing the expected result.
 <br>
-<br>
+
 ## For the Arithmetic unit (AU): <br>
  Addition<br>
  Subtraction<br>
  Increment input A<br>
  Decrement input A<br>
 <br>
-<br>
+
 ## For the logic unit (LU)<br>
  ANDing<br>
  ORing<br>
  Complement input A<br>
  XORing<br>
  Comparator<br>
-Solution.
+
+Solution. <br>
 Inputs;
-A = A3A2A1A0
-B = B3B2B1B0
-S = S2S1S0
-Outputs;
-FAU – Arithmetic unit output
-FLU – Logic unit output
-F -- Final output
-Relation between I/OTABLE 1
-Figure 1
+### A = A3A2A1A0 <br>
+### B = B3B2B1B0<br>
+### S = S2S1S0<br>
+Outputs;<br>
+
+### FAU – Arithmetic unit output<br>
+### FLU – Logic unit output<br>
+### F -- Final output<br>
+
 I- CONCEPTION OF THE ARITHMETIC UNIT
 The AU is able to perform the 4 Mathematical operations which are:
 1- Addition ie A+B
