@@ -65,7 +65,7 @@ come out with respect to the users selection code.
 <br>
 
 
-## II- COMPARATOR
+# II- COMPARATOR
 Since our ALU works in 4-bits, it is expected to output if A<B, A>B or A=B. Let us work
 from the idea of creating a two 2-bit comparator and then cascading them to get our 4-bit
 comparator.
